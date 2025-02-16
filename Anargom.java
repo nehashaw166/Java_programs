@@ -14,8 +14,8 @@ public class Anargom {
     }
     public static char[] bubbleSort(char[] ch1){
         char temp;
-        for(int i=0; i<ch1.length; i++ ){
-            for(int j=i;j<ch1.length; j++){
+        for(int i=0; i<ch1.length-1; i++ ){
+            for(int j=i+1;j<ch1.length; j++){
                 if(((int)ch1[i])>((int)ch1[j])){
                     temp = ch1[i];
                     ch1[i]=ch1[j];
